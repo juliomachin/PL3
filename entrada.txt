@@ -1,0 +1,22 @@
+BeginJava
+a="Hola Mundo";
+System.out.println(a);
+
+españa
+
+<=
+>=
+
+==
+
+EndJava
+
+
+
+
+
+
+BeginPHP
+$c="Esta es otra cadena";
+echo $c;
+EndPHP
