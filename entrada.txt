@@ -1,22 +1,33 @@
 BeginJava
-a="Hola Mundo";
-System.out.println(a);
-
-españa
-
-<=
->=
-
-==
-
+if (a > b) {
+	System.out.println(“a es mayor que b”);
+} else {
+if (a==b)
+{
+	System.out.println(“a es igual que b”);
+}
+else 
+{
+	System.out.println(“a es igual que b”);
+}
 EndJava
 
+BeginPHP
+if ($a > $b) { 
+	echo "a es mayor que b"; 
+} elseif ($a == $b) { 
+	echo "a es igual que b"; 
+}
+	 else { echo "a es menor que b"; 
+}
+EndPHP
 
-
-
-
+BeginJava
+a=”Hola Mundo”;
+System.out.println(a);
+EndJava
 
 BeginPHP
-$c="Esta es otra cadena";
+$c=”Esta es otra cadena”;
 echo $c;
 EndPHP
